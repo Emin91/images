@@ -5,17 +5,9 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#d2d2d2',
     },
-    upView: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-    img: {
-        width: '100%',
-        height: 250,
-    },
-    buttonView: {
-        flex: 1,
+
+    viewOne: {
+        flex: 0.1,
         justifyContent: 'center',
         alignItems: 'center',
     },
@@ -26,12 +18,44 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#27ae60',
-
     },
-    text: {
+    buttonText: {
         fontSize: 25,
+        color: '#ffffff'
+    },
+
+    viewTwo: {
+        flex: 0.5,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    img: {
+        width: '100%',
+        height: '80%',
+    },
+
+    viewThree: {
+        flex: 0.2,
+        paddingLeft: 10,
+        paddingRight: 10,
+        justifyContent: 'center',
+    },
+    input: {
+        width: '100%',
+        height: 50,
+        paddingLeft: 10,
+        borderRadius: 10,
+        borderWidth: 2,
+    },
+    viewFour: {
+        flex: 0.2,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    someText: {
+        fontSize: 15,
         color: '#000000'
-    }
+    },
 })
 
 export default styles
